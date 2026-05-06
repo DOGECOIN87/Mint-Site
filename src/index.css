@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-cookie-base: #c2884a;
+  --color-cookie-dark: #8c5b2b;
+  --color-cookie-blue: #00a3ff;
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+  overflow-x: hidden;
+}
